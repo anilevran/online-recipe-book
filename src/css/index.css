@@ -3,6 +3,7 @@
 }*/
 body,
 html {
+  margin: 0px;
   height: 100%;
   background-image: url(/src/img/food1.jpg);
 

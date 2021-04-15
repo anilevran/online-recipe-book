@@ -2,13 +2,21 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "../css/index.css";
 import Navbar from "./Navbar";
+import Searchbar from "./Searchbar";
+import IndexContent from "./IndexContent";
 
 class Index extends Component {
   state = {};
   render() {
-    return <div className="container m-0 p-0 bg">Deneme</div>;
+    return (
+      <div>
+        <Navbar />
+        <Searchbar />
+        <IndexContent />
+      </div>
+    );
   }
 }
-ReactDOM.render(<Navbar />, document.getElementById("root"));
+ReactDOM.render(<Index />, document.getElementById("root"));
 
 export default Index;

@@ -6,16 +6,16 @@
 }
 
 .nav-container ul {
+  height: 100%;
   display: inline-block;
   list-style: none;
   color: white;
   font-size: 1em;
-  margin-bottom: 0px;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 .navigation {
-  padding-right: 35em;
+  padding-right: 45em;
 }
 .nav-container ul li {
   display: inline;
