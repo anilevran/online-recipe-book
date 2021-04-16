@@ -14,48 +14,51 @@ class Navbar extends Component {
       <Router>
         <nav className="nav-container">
           <ul className="navigation">
-            <li>
-              <Link to="/Home" className="active">
-                HOME
-              </Link>
+            <li className="active">
+              <a>
+                <Link to="/Home">HOME</Link>
+              </a>
             </li>
             <li>
-              <Link to="/Blog">BLOG</Link>
+              <a>
+                <Link to="/Blog">BLOG</Link>
+              </a>
             </li>
             <li>
-              <a>RECIPES</a>
+              <a>
+                <Link to="/Recipes">RECIPES</Link>
+              </a>
             </li>
             <li>
-              <a>CONTACT</a>
+              <a>
+                <Link to="/CONTACT">CONTACT</Link>
+              </a>
             </li>
           </ul>
           <ul className="logging">
             <li>
               <a>
-                LOG-IN
-                <a>
-                  <i>
-                    <FontAwesomeIcon icon={faIdCard} />
-                  </i>
-                </a>
+                <Link to="/Signin">Sign-in</Link>
               </a>
+
+              <i>
+                <FontAwesomeIcon icon={faIdCard} />
+              </i>
             </li>
             <li>
               <a>
-                SIGN-UP
-                <a>
-                  <i>
-                    <FontAwesomeIcon icon={faUserPlus} />
-                  </i>
-                </a>
+                <Link to="/Signup">Sign-up</Link>
               </a>
+              <i>
+                <FontAwesomeIcon icon={faUserPlus} />
+              </i>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route path="/Home" component={Index}></Route>
-          <Route path="/Blog" component={Blog}></Route>
+          <Route path="/Home" component={Index} />
+          <Route path="/Blog" component={Blog} />
         </Switch>
       </Router>
     );
