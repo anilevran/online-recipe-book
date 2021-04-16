@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 //import ReactDOM from "react-dom";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
-class Blog extends Component {
+class Contact extends Component {
   state = {};
   render() {
     return (
@@ -13,4 +13,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default Contact;

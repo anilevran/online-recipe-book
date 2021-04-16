@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "../css/index.css";
-import Navbar from "./Navbar";
-import Searchbar from "./Searchbar";
-import IndexContent from "./IndexContent";
-
+import Navbar from "../components/Navbar";
+import Searchbar from "../components/Searchbar";
+import IndexContent from "../components/IndexContent";
 class Index extends Component {
   state = {};
   render() {
@@ -17,6 +15,5 @@ class Index extends Component {
     );
   }
 }
-ReactDOM.render(<Index />, document.getElementById("root"));
 
 export default Index;
