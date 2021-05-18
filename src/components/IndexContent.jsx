@@ -9,7 +9,7 @@ class IndexContent extends Component {
         <div className="card-container">
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -20,7 +20,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -31,7 +31,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -43,7 +43,7 @@ class IndexContent extends Component {
         <div className="card-container">
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -54,7 +54,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -65,7 +65,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -77,7 +77,7 @@ class IndexContent extends Component {
         <div className="card-container">
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -88,7 +88,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -99,7 +99,7 @@ class IndexContent extends Component {
           <hr></hr>
           <div className="card">
             <div className="card-header">
-              <img src={profilePhoto}></img>
+              <img src={profilePhoto} alt="pp"></img>
             </div>
             <div className="card-content">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti

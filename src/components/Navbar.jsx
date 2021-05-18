@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import "../css/navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBorderNone, faIdCard } from "@fortawesome/free-solid-svg-icons";
+import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 class Navbar extends Component {
-  state = {};
   render() {
     return (
       <nav className="nav-container">

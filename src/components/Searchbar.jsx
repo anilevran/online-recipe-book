@@ -3,7 +3,6 @@ import "../css/searchbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
-//fa-utensils
 class Searchbar extends Component {
   state = {};
   render() {

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "../css/index.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Home from "./Home";
-import Blog from "./Blog";
-import Recipes from "./Recipes";
-import Contact from "./Contact";
-class Index extends Component {
-  state = {};
+import "./css/app.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Recipes from "./pages/Recipes";
+import Contact from "./pages/Contact";
+
+class App extends Component {
   render() {
     return (
       <Router>
@@ -20,5 +20,4 @@ class Index extends Component {
     );
   }
 }
-
-export default Index;
+export default App;
