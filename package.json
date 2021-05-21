@@ -1,8 +1,8 @@
+
 {
   "name": "online-recipe-book",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:9000",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",

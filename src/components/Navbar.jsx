@@ -30,6 +30,11 @@ class Navbar extends Component {
               CONTACT
             </Link>
           </li>
+          <li>
+            <Link to="/Aboutus" className="links">
+              ABOUT US
+            </Link>
+          </li>
         </ul>
         <ul className="logging">
           <li>
