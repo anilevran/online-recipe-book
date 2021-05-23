@@ -9,7 +9,7 @@ class Searchbar extends Component {
     return (
       <div className="search-container">
         <form action="">
-          <input type="text" placeholder="Tarif Arayınız" name="search" />
+          <input type="text" placeholder="Search Recipe" name="search" />
           <button type="submit">
             <i>
               <FontAwesomeIcon icon={faUtensils} />

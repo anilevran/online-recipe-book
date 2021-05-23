@@ -3,7 +3,7 @@ const pool = require("../helpers/database");
 const router = express.Router();
 
 
-async function homeData(req,res){
+async function recipesData(req,res){
     try{
         const sqlQuery = 'select recipe_id, created_by, recipe_title, recipe_description, recipe_imagepath from recipes';
         const rows = await pool.query(sqlQuery);
@@ -14,6 +14,6 @@ async function homeData(req,res){
         console.log("Error in blog js");
     }
 }
-router.get("/",homeData);
+router.get("/",recipesData);
 
 module.exports = router;

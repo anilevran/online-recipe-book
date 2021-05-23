@@ -7,10 +7,8 @@ const pool = mariadb.createPool({
     database: process.env.DB_NAME,
     connectionLimit: 5
 });
-console.log(pool);
 pool.getConnection()
     .then(conn => {
-      console.log(conn)
     
 
         //Veri Ekleme--Veri Cevabı--Veri hata döndürdü mü

@@ -16,7 +16,6 @@ class App extends Component {
             <Route path = "/Recipes" component = { Recipes }/> 
             <Route path = "/Contact" component = { Contact }/> 
             <Route path = "/Aboutus" component = { Aboutus }/>
-
             </Switch> </Router >
         );
     }
